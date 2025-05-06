@@ -1,7 +1,9 @@
 package com.wesleybertipaglia;
 
+import com.wesleybertipaglia.controllers.TaskController;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        new TaskController().start();
     }
 }
