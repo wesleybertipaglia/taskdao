@@ -1,9 +1,9 @@
 package com.wesleybertipaglia;
 
-import com.wesleybertipaglia.controllers.TaskController;
+import com.wesleybertipaglia.views.TaskMenu;
 
 public class Main {
     public static void main(String[] args) {
-        new TaskController().start();
+        TaskMenu.main(args);
     }
 }
